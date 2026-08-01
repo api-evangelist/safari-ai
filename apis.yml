@@ -1,7 +1,30 @@
 aid: safari-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/safari-ai.png
 name: Safari Ai
-description: Safari Ai is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Safari AI is a vision-AI company for physical operations, turning an
+  organization's existing camera networks into an automated operational system.
+  Its Action Center platform measures on-site activity (people counts and
+  footfall, occupancy, heatmapping, throughput, queue wait time, dwell time,
+  vehicle counts, and license-plate recognition), raises alerts, recommends and
+  dispatches actions, and attributes outcomes — measurement to action in under
+  60 seconds. Safari AI serves theme parks and cultural attractions, stadiums
+  and arenas, QSR and drive-thrus, retail and shopping malls, parking, and
+  logistics. Backed by General Catalyst, it exposes no public developer API;
+  customers consume results through a hosted real-time dashboard (Grafana)
+  rather than a self-serve API surface. This profile was surfaced from the VC
+  portfolio graph and enriched from the company's public site.
 url: https://raw.githubusercontent.com/api-evangelist/safari-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,43 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Computer Vision
+- Video Analytics
+- Physical Operations
+- Retail Analytics
+- People Counting
+- Operational Intelligence
+- Vision AI
 apis: []
+common:
+- type: DomainSecurity
+  url: security/safari-ai-domain-security.yml
+- type: Website
+  url: https://www.getsafari.ai
+- type: Blog
+  url: https://www.getsafari.ai/blog
+- type: About
+  url: https://www.getsafari.ai/about
+- type: Support
+  url: https://www.getsafari.ai/contact
+- type: TermsOfService
+  url: https://www.getsafari.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.getsafari.ai/privacy-policy
+- type: Login
+  url: https://realtime.getsafari.ai/grafana/login
+- type: FAQ
+  url: https://www.getsafari.ai/faq
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
