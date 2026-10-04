@@ -48,7 +48,7 @@ created: '2026-07-17'
 modified: '2026-07-21'
 tags:
 - Company
-- Computer-Vision
+- Computer Vision
 - Video Analytics
 - Physical Operations
 - Retail Analytics
@@ -64,6 +64,7 @@ tags_raw:
 - People Counting
 - Operational Intelligence
 - Vision AI
+- Computer-Vision
 apis: []
 common:
 - type: DomainSecurity
